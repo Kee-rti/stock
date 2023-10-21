@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Trading and Investment Platform</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="welcom">
+        <h1 class="heading">Welcome to Our Stock Trading Platform</h1>
+        <p class="heading" id="small">Your gateway to smart investing.</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a trusted online stock trading and investment platform...</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="stock.jpg" alt="Stock Trading">
+                <h3>Stock Trading</h3>
+                <p><a>Trade stocks online with ease.</a></p>
+            </div>
+            <hr>
+            <div class="service">
+                <a href="portfolio.html"><img src="ProjectPortfolio.jpg" alt="Service 2"></a>
+                <h3>Portfolio Management</h3>
+                <p><a href="portfolio.html">Manage your portfolio here!</a></p>
+            </div>
+            <hr>
+            <div class="service">
+                <img src="Information Analysis.jpg" alt="Service 3">
+                <h3>Research & Analysis</h3>
+                <p><a>Access in-depth market analysis.</a></p>
+            </div>
+        </div>
+    </section>
+</section>
+<section class="investing">
+    <div>
+        <h2 class="why"><a href="invest.html">Why Investing?</a></h2>
+    </div>
+</section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    <footer>
+        <p>&copy; 2023 Stock Trading Platform</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: 40px;
+    transition: transform 0.3ms ease-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#small{
+    font-size: 30px;
+}
+.heading:hover{
+    transform:scale(1.05);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    background-color: #0b0458;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+.navbar a:hover {
+    color:#0000ff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    padding: 100px 0;
+    background-image:url(back.jpg);
+}
+section#about {
+    background-color: #0b0458;
+}
+section#services {
+    background-color: #000438;
+    padding: 40px 0;
+}
+
+.service {
+    text-align: center;
+    margin:20px;
+    color: #fff;
+    transition: transform 0.2ms;
+}
+
+.service img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+.service a{
+    text-decoration: none;
+    color: #6cabe7;
+}
+.service img:hover{
+    transform: scale(0.9);
+}
+.service a:hover{
+    color: #0000ff;
+}
+section#contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+.investing{
+    padding: 30px 0;
+    text-align: center;
+    background-color:#0000bd;
+}
+.why a{
+    text-decoration: none;
+    color: white;
+}
+.why{
+    transition: transfrom (0.2ms);
+}
+.why:hover{
+    transform: scale(1.25);
+}
+.why a:hover{
+    color:#0b0458;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0074e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+hr{
+    width: 60%;
+}
